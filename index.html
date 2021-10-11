@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logical connective</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <header>
+      <h2 id="thema">Logical connective summary</h2>
+    </header>
+    <div id="scrollmenu">
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Common_logical_connectives">Common logical connectives</a>
+      <a class="nav-link" href="#Values_of_the_truth_tables">Values of the truth tables</a>
+      <a class="nav-link" href="#Negation">Negation</a>
+      <a class="nav-link" href="#Conjunction">Conjunction</a>
+      <a class="nav-link" href="#Disjunction">Disjunction</a>
+      <a class="nav-link" href="#Material_implication">Material implication</a>
+      <a class="nav-link" href="#Biconditional">Biconditional</a>
+      <a class="nav-link" href="#Joint_denial">Joint denial</a>
+      <a class="nav-link" href="#Exclusive_disjunction">Exclusive disjunction</a>
+      <a class="nav-link" href="#References">References</a>
+    </div>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <p>In logic, a logical connective (also called a logical operator, sentential connective, or sentential operator) is a logical constant used to connect two or more formulas. For instance in the syntax of propositional logic, the binary
+        connective <span style='color: red;'>&or;</span> can be used to join the two atomic formulas P and Q, rendering the complex formula P <span style='color: red;'>&or;</span> Q.
+
+        Common connectives include negation, disjunction, conjunction, and implication. In standard systems of classical logic, these connectives are interpreted as truth functions, though they receive a variety of alternative interpretations in
+        nonclassical logics. Their classical interpretations are similar to the meanings of natural language expressions such as English "not", "or", "and", and "if", but not identical. Discrepancies between natural language connectives and those of
+        classical logic have motivated nonclassical approaches to natural language meaning as well as approaches which pair a classical compositional semantics with a robust pragmatics.
+
+        A logical connective is similar to, but not equivalent to, a syntax commonly used in programming languages called a conditional operator.</p>
+
+      <p>In formal languages, truth functions are represented by unambiguous symbols. This allows logical statements to not be understood in an ambiguous way. These symbols are called logical connectives, logical operators, propositional operators,
+        or, in classical logic, truth-functional connectives. For the rules which allow new well-formed formulas to be constructed by joining other well-formed formulas using truth-functional connectives, see well-formed formula.
+
+        Logical connectives can be used to link more than two statements, so one can speak about n-ary logical connective.</p>
+
+    </section>
+    <hr>
+    <section id="Common_logical_connectives" class="main-section">
+      <header>
+        <h2>Common logical connectives</h2>
+      </header>
+      <p><strong>List of common logical connectives:</strong></p>
+      <ul>
+        <li>Negation (not)</li>
+        <li>Conjunction (and)</li>
+        <li>Disjunction (or)</li>
+        <li>Material implication (if...then)</li>
+        <li>Biconditional (if and only if)</li>
+        <li>Joint denial (neither...nor)</li>
+        <li>Exclusive disjunction (either...or)</li>
+      </ul>
+    </section>
+    <hr>
+    <section id="Values_of_the_truth_tables" class="main-section">
+      <header>
+        <h2>Values of the truth tables</h2>
+      </header>
+      <code id="true_false">
+        True = T = 1&nbsp&nbsp
+        False = F = 0
+      </code>
+
+    </section>
+    <hr>
+    <section id="Negation" class="main-section">
+      <header>
+        <h2>Negation</h2>
+      </header>
+      <p>In logic, negation, also called the logical complement, is an operation that takes a proposition <span style='color:red'>P</span> to another proposition "not P", <span style='color:red'>&#0172; P</span>, <span style='color:red'>&#8764;
+          P</span> or <span style='text-decoration:overline; color:red'>P</span>. It is interpreted intuitively as being true when <span style='color:red'>P</span> is false, and false when <span style='color:red'>P</span> is true. Negation is thus a
+        unary (single-argument) logical connective.</p>
+      <p>No agreement exists as to the possibility of defining negation, as to its logical status, function and meaning, as to its field of applicability, and as to the interpretation of the negative judgment (F.H. Heinemann 1944).</p>
+      <p>Classical negation is an operation on one logical value, typically the value of a proposition, that produces a value of true when its operand is false, and a value of false when its operand is true. Thus if statement <span
+          style='color:red'>P</span> is true, then <span style='color:red'>&#0172; P</span> (pronounced "not P") would then be false; and conversely, if <span style='color:red'>&#0172; P</span> is false, then <span style='color:red'>P</span> would be
+        true.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use">It is <strong>not</strong> raining.</p>
+      <h4>Simbols:</h4>
+      <code>
+        &#0172;&nbsp
+        &#8764;
+      </code>
+      <h4>Negation truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>&#0172; P</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+
+        </tr>
+
+      </table>
+    </section>
+    <hr>
+    <section id="Conjunction" class="main-section">
+      <header>
+        <h2>Conjunction</h2>
+      </header>
+      <p>In logic, mathematics and linguistics, And (<span style='color: red;'>&#8743;</span>) is the truth-functional operator of logical conjunction; the and of a set of operands is true if and only if all of its operands are true. The logical
+        connective that represents this operator is typically written as <span style='color: red;'>&#8743;</span> or ⋅ .</p>
+
+      <p>A <span style='color: red;'>&#8743;</span> B is true only if <span style='color: red;'>A</span> is true and <span style='color: red;'>B</span> is true.</p>
+      <p>Logical conjunction is an operation on two logical values, typically the values of two propositions, that produces a value of true if and only if both of its operands are true.</p>
+      <p>An operand of a conjunction is a conjunct.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use">It's raining <strong>and</strong> the street is wet.</p>
+      <h4>Simbols:</h4>
+      <code>
+        &#8743;&nbsp
+        &
+      </code>
+      <h4>Conjunction truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8743; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="Disjunction" class="main-section">
+      <header>
+        <h2>Disjunction</h2>
+      </header>
+      <p>In logic, disjunction is a logical connective typically notated <span style='color: red;'>&#8744;</span> whose meaning either refines or corresponds to that of natural language expressions such as "or". In classical logic, it is given a
+        truth functional semantics on which <span style='color: red;'>&#966; &#8744; &#968;</span> is true unless both <span style='color: red;'>&#966;</span> and <span style='color: red;'>&#968;</span> are false. Because this semantics allows a
+        disjunctive formula to be true when both of its disjuncts are true, it is an inclusive interpretation of disjunction, in contrast with exclusive disjunction.</p>
+      <p>Classical proof theoretical treatments are often given in terms of rules such as disjunction introduction and disjunction elimination. Disjunction has also been given numerous non-classical treatments, motivated by problems including
+        Aristotle's sea battle argument, Heisenberg's uncertainty principle, as well the numerous mismatches between classical disjunction and its nearest equivalents in natural language.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use">It's raining <strong>or</strong> the street is wet.</p>
+      <h4>Simbol:</h4>
+      <code>
+        &#8744;
+      </code>
+      <h4>Disjunction truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8744; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="Material_implication" class="main-section">
+      <header>
+        <h2>Material implication</h2>
+      </header>
+      <p>The material conditional (also known as material implication) is an operation commonly used in logic. When the conditional symbol <span style='color: red;'>&#8594;</span> is interpreted as material implication, a formula <span
+          style='color: red;'>P &#8594; Q</span> is true unless <span style='color: red;'>P</span> is true and <span style='color: red;'>Q</span> is false. Material implication can also be characterized inferentially by modus ponens, modus tollens,
+        conditional proof, and classical reductio ad absurdum.</p>
+      <p>Material implication is used in all the basic systems of classical logic as well as some nonclassical logics. It is assumed as a model of correct conditional reasoning within mathematics and serves as the basis for commands in many
+        programming languages. However, many logics replace material implication with other operators such as the strict conditional and the variably strict conditional. Due to the paradoxes of material implication and related problems, material
+        implication is not generally considered a viable analysis of conditional sentences in natural language.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use"><strong>If</strong> it is raining, <strong>then</strong> the street is wet.</p>
+      <h4>Simbols:</h4>
+      <code>
+        &#8594;&nbsp
+        &#8835;
+      </code>
+      <h4>Material implication truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8594; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="Biconditional" class="main-section">
+      <header>
+        <h2>Biconditional</h2>
+      </header>
+      <p>In logic and related fields such as mathematics and philosophy, "if and only if" (shortened as "iff") is a biconditional logical connective between statements, where either both statements are true or both are false.</p>
+      <p>The connective is biconditional (a statement of material equivalence), and can be likened to the standard material conditional ("only if", equal to "if ... then") combined with its reverse ("if"); hence the name. The result is that the truth
+        of either one of the connected statements requires the truth of the other (i.e. either both statements are true, or both are false), though it is controversial whether the connective thus defined is properly rendered by the English "if and
+        only if"—with its pre-existing meaning. For example, P if and only if Q means that P is true whenever Q is true, and the only case in which P is true is if Q is also true, whereas in the case of P if Q, there could be other scenarios where P
+        is true and Q is false.</p>
+      <p>In writing, phrases commonly used as alternatives to P "if and only if" Q include: Q is necessary and sufficient for P, P is equivalent (or materially equivalent) to Q (compare with material implication), P precisely if Q, P precisely (or
+        exactly) when Q, P exactly in case Q, and P just in case Q. Some authors regard "iff" as unsuitable in formal writing; others consider it a "borderline case" and tolerate its use.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use">It is raining <strong>if and only if,</strong> the street is wet.</p>
+      <h4>Simbols:</h4>
+      <code>
+        &#8660;&nbsp
+        &#8801;&nbsp
+        &#8596;
+      </code>
+      <h4>Biconditional truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8660; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="Joint_denial" class="main-section">
+      <header>
+        <h2>Joint denial</h2>
+      </header>
+      <p>In boolean logic, logical nor or joint denial is a truth-functional operator which produces a result that is the negation of logical or. That is, a sentence of the form (p NOR q) is true precisely when neither p nor q is true—i.e. when both
+        of p and q are false. In grammar, nor is a coordinating conjunction.</p>
+      <p>The NOR operator is also known as Peirce's arrow—Charles Sanders Peirce introduced the symbol <span style='color: red;'>&#8595;</span> for it, and demonstrated that the logical NOR is completely expressible: by combining uses of the logical NOR it
+        is possible to express any logical operation on two variables. </p>
+      <p>The NOR operation is a logical operation on two logical values, typically the values of two propositions, that produces a value of true if and only if both operands are false. In other words, it produces a value of false if and only if at
+        least one operand is true.</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use"><strong>Neither</strong> it is raining, <strong>nor</strong> the street is wet.</p>
+      <h4>Simbol:</h4>
+      <code>
+        &#8595;
+      </code>
+      <h4>NOR truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8595; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="Exclusive_disjunction" class="main-section">
+      <header>
+        <h2>Exclusive disjunction</h2>
+      </header>
+      <p>Exclusive or or exclusive disjunction is a logical operation that is true if and only if its arguments differ (one is true, the other is false).</p>
+      <p>The negation of XOR is logical biconditional, which is true if and only if the two inputs are the same.</p>
+      <p>It gains the name "exclusive or" because the meaning of "or" is ambiguous when both operands are true; the exclusive or operator excludes that case. This is sometimes thought of as "one or the other but not both". This could be written as "A
+        or B, but not, A and B".</p>
+      <h4>Example of use in natural language:</h4>
+      <p id="use"><strong>Either</strong> it is raining, <strong>or</strong> the street is wet.</p>
+      <h4>Simbols:</h4>
+      <code>
+        &#8654;&nbsp
+        &oplus;&nbsp
+        &#8891;
+      </code>
+      <h4>XOR truth table:</h4>
+      <table>
+        <tr>
+          <th>P</th>
+          <th>Q</th>
+          <th>P &#8654; Q</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section id="References" class="main-section">
+      <header>
+        <h2>References</h2>
+      </header>
+      <p><strong>All the documentation of this page is taken from <a href="https://en.wikipedia.org/wiki/Logical_connective" target="_blank"> Wikipedia entry</a></strong> (English and Spanish).</p>
+    </section>
+    <hr>
+  </main>
+</body>
+
+</html>
