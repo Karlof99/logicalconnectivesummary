@@ -1,3 +1,3 @@
 # logicalconnectivesummary
 Logic simbols and truth tables.
-This is a small proyect that a make in FreeCodeCamp as part of the course Responsive Web Design. The proyect consist on create a technical documentation page.
+This is a small proyect that I made in FreeCodeCamp as part of the course Responsive Web Design. The proyect consist on create a technical documentation page.
