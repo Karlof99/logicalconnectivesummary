@@ -1,0 +1,94 @@
+#navbar {
+  position: fixed;
+  float: left;
+}
+
+#thema {
+  text-align: center;
+  border: 2px solid #3db2ff;
+  background-color: #ddd;
+  color: #000;
+  padding: 10px;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+#scrollmenu {
+  overflow-y: scroll;
+  width: 460px;
+  height: 500px;
+  border: 2px solid #3db2ff;
+  background-color: #000;
+}
+
+.nav-link {
+  font-family: monospace;
+  font-size: 1.5rem;
+  display: block;
+  padding: 20px;
+  color: #3db2ff;
+  text-decoration: none;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+#main-doc {
+  float: right;
+  padding-left: 470px;
+}
+
+#use {
+  font-size: 2rem;
+}
+
+#true_false {
+  font-size: 1.75rem;
+  padding: 5px;
+}
+
+hr {
+  border-top: 2px solid #3db2ff;
+}
+
+code {
+  font-size: 2rem;
+  background-color: #ddd;
+  padding: 15px;
+}
+
+table {
+  font-family: monospace;
+  border-collapse: collapse;
+  width: 100%
+}
+
+th, td {
+  font-family: monospace;
+  border: 2px solid #ddd;
+  text-align: center;
+  font-size: 2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+@media (max-width: 680px) {
+  #main-doc {
+    margin-top: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+  }
+  #navbar {
+    position: absolute;
+    float: left;
+  }
+  #scrollmenu {
+    height: 320px;
+  }
+}
